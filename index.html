@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job freak</title>
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-panel">
+        <img
+          src="https://jobfreak.in/logo.png"
+          alt="Logo"
+          class="logo"
+        />
+        <ul>
+          <li><a href="#" onclick="showContent('home')">Home</a></li>
+          <li><a href="#" onclick="showContent('contact')">Contact</a></li>
+          <li><a href="#" onclick="showContent('guide')">Guide</a></li>
+          <li><a href="#" onclick="showContent('info')">Information</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <div id="home">
+          <p>Welcome to our website!</p>
+          <p>
+            At Job Freak We Post daily updates on internships and jobs postings!
+            Our aim is to empower the youth of our country and make them
+            self-dependent. We provide job/internship opportunities from various
+            sectors, share knowledge, and make them competent enough to excel in
+            any field. If you have any queries regarding the site, advertisements,
+            or any other issues, please feel free to contact us.
+          </p>
+          <p>We are here for you!</p>
+          <img
+            src="https://jobfreak.in/img1.png"
+            alt="Image"
+            style="max-width: 100%  "
+          />
+          <div class="footer">
+            <div class="social-icons">
+              <a href="https://www.instagram.com/job_freak/ "
+                ><img
+                  src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png"
+                  alt="Instagram"
+                  style="height: 16px"
+              /></a>
+              <a href="https://t.me/JobFreak"
+                ><img
+                  src="https://cdn-icons-png.flaticon.com/512/2582/2582606.png"
+                  alt="Telegram"
+                  style="height: 16px"
+              /></a>
+            </div>
+            <div class="footer-info">
+              <p>© 2023 All rights reserved</p>
+              <p>
+                <a href="#">TERMS &amp; CONDITIONS</a>
+                <a href="#">PRIVACY POLICY</a>
+                <a href="#">DMCA</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="contact" style="display: none;">
+          <h2>Contact</h2>
+          <div class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Enter your email" />
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              placeholder="Enter your message"
+            ></textarea>
+            <button onclick="submitForm()">Submit</button>
+          </div>
+        </div>
+
+        <div id="guide">
+          <h2>Our Aim</h2>
+          <p>
+            Our aim is to empower the youth of our country and make them
+            self-dependent. By providing them job/internship opportunities from
+            various sectors, sharing knowledge, and making them competent enough so
+            that they can excel in any field.
+          </p>
+          <h2>Services Offered</h2>
+          <div id="guide-sec">
+            <h3>Recruitment Agency</h3>
+            <ul>
+              <li>Job Placement Agencies</li>
+              <li>Recruitment Websites</li>
+              <li>Find A Recruitment Agency</li>
+              <li>Placement Service Provider</li>
+              <li>Domestic Placement Company</li>
+              <li>Permanent Temporary Staffing Consultancy</li>
+              <li>Permanent Temporary Staffing</li>
+              <li>Permanent Temporary Staffing Consultants</li>
+            </ul>
+            <button>Send Inquiry</button>
+          </div>
+          <h2>Industries we serve</h2>
+          <p>IT-Hardware & Networking / IT-Software / Software Services</p>
+        </div>
+       
+        <div id="info" style="display: none">
+          <div class="information-container">
+            <div class="information-box">
+              <h3>Baker Hughes Hiring</h3>
+              <p>Software Engineer</p>
+              <p>2022, 23, 24</p>
+              <p>15 LPA</p>
+              <p><i class="bi bi-geo-alt"></i> Bangalore</p>
+              <p><i class="bi bi-calendar3"></i> Date: 1-6-2023</p>
+            </div>
+          
+            <!-- Remaining information-box elements -->
+            <div class="information-box">
+              <h3>Baker Hughes Hiring</h3>
+              <p>Software Engineer</p>
+              <p>2022, 23, 24</p>
+              <p>15 LPA</p>
+              <p><i class="bi bi-geo-alt"></i> Bangalore</p>
+              <p><i class="bi bi-calendar3"></i> Date: 1-6-2023</p>
+            </div>
+            <div class="information-box">
+              <h3>Baker Hughes Hiring</h3>
+              <p>Software Engineer</p>
+              <p>2022, 23, 24</p>
+              <p>15 LPA</p>
+              <p><i class="bi bi-geo-alt"></i> Bangalore</p>
+              <p><i class="bi bi-calendar3"></i> Date: 1-6-2023</p>
+            </div>
+            <div class="information-box">
+              <h3>Baker Hughes Hiring</h3>
+              <p>Software Engineer</p>
+              <p>2022, 23, 24</p>
+              <p>15 LPA</p>
+              <p><i class="bi bi-geo-alt"></i> Bangalore</p>
+              <p><i class="bi bi-calendar3"></i> Date: 1-6-2023</p>
+            </div>
+            <div class="information-box">
+              <h3>Baker Hughes Hiring</h3>
+              <p>Software Engineer</p>
+              <p>2022, 23, 24</p>
+              <p>15 LPA</p>
+              <p><i class="bi bi-geo-alt"></i> Bangalore</p>
+              <p><i class="bi bi-calendar3"></i> Date: 1-6-2023</p>
+            </div>
+            <div class="information-box">
+              <h3>Baker Hughes Hiring</h3>
+              <p>Software Engineer</p>
+              <p>2022, 23, 24</p>
+              <p>15 LPA</p>
+              <p><i class="bi bi-geo-alt"></i> Bangalore</p>
+              <p><i class="bi bi-calendar3"></i> Date: 1-6-2023</p>
+            </div>
+            <div class="information-box">
+              <h3>Baker Hughes Hiring</h3>
+              <p>Software Engineer</p>
+              <p>2022, 23, 24</p>
+              <p>15 LPA</p>
+              <p><i class="bi bi-geo-alt"></i> Bangalore</p>
+              <p><i class="bi bi-calendar3"></i> Date: 1-6-2023</p>
+            </div>
+            <div class="information-box">
+              <h3>Baker Hughes Hiring</h3>
+              <p>Software Engineer</p>
+              <p>2022, 23, 24</p>
+              <p>15 LPA</p>
+              <p><span class="bi bi-geo-alt"></span> Bangalore</p>
+              <p><i class="bi bi-calendar-date"></i> Date: 1-6-2023</p>
+            </div>
+          
+          </div>
+        </div>
+        
+     
+
+     <script src="script.js"></script>
+  </body>
+</html>
+

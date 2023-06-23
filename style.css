@@ -1,0 +1,205 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.container {
+  display: flex;
+}
+
+/* Left panel */
+.left-panel {
+  background-color: #192a56;
+  color: #fff;
+  width: 200px;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.left-panel ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.left-panel li {
+  margin-bottom: 10px;
+}
+
+.left-panel li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.left-panel li a:hover {
+  color: #f9ca24;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Content area */
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Stylish design */
+h2 {
+  color: #192a56;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  color: #192a56;
+  margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #192a56;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Footer section */
+.footer {
+  margin-top: 20px;
+  color: #777;
+  text-align: center;
+  display: flex;
+  /* Added */
+  flex-direction: column;
+  /* Added */
+  align-items: center;
+  /* Added */
+}
+
+.footer p {
+  margin-bottom: 5px;
+}
+
+.footer a {
+  color: #777;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+#guide {
+
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#guide h2 {
+  color: #192a56;
+  margin-bottom: 10px;
+}
+
+#guide p {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+#guide ul {
+  list-style-type: disc;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+#guide ul li {
+  margin-bottom: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: row; /* Change to row direction */
+  }
+
+  .left-panel {
+    width: 200px;
+    min-height: 100vh;
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+
+  .content {
+    padding: 20px;
+    margin-left: 20px;
+  }
+}
+
+
+/* Information section */
+.information-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.information-box {
+  /* width: 48%; */
+  padding: 20px;
+  background-color:  rgb(235, 235, 235);
+  color: black;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.information-box h3 {
+  margin-top: 0;
+}
+
+.information-box p {
+  margin-bottom: 5px;
+}
+  
